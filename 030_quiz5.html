@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz 5 : Box Model</title>
+    <style>
+        .main{
+            box-sizing: border-box;
+            margin: 5px;
+            padding:50px 5px 50px 5px;
+            border: 3px solid red;
+            width: 99%;
+            height: 300px;
+        }
+        .feature,.col1,.col2{
+            margin: 5px;
+            padding: 60px 15px 60px 15px;
+            background-color: blue;
+            color: white;
+            float: left;
+            height: 80px;
+        }
+        .feature{
+            width: 51%;
+
+        }
+        .col1,.col2{
+            width: 20%;
+        }
+        .wark{
+            padding-left: 25px; 
+            /* เอาไว้เว้นวรรข้อความในกล่อง */
+        }
+    </style>
+</head>
+<body>
+    <h1>รหัสนักศึกษา : 6540011030</h1>
+    <h2>Quiz 5 : Box Model</h2>
+    <div class="main">
+        <div class="feature">
+            <span class="wark">Lorem</span> ipsum dolor sit amet consectetur adipisicing elit. Obcaecati repellendus recusandae excepturi ab fugiat quam dolores temporibus cumque magnam consequuntur. Iusto facilis neque hic a veniam quaerat accusantium cupiditate delectus.
+        </div>
+        <div class="col1">
+            <span class="wark">Lorem</span> ipsum dolor sit amet consectetur adipisicing elit. Ipsa, consectetur animi atque quibusdam debitis nobis similique temporibus aliquid laudantium non eveniet, repudiandae, ab saepe pariatur dolore alias quos sed quas.
+        </div>
+        <div class="col2">
+            <span class="wark">Lorem</span> ipsum dolor sit amet,sadasd consectetur adipisicing elit. Odio, quod tempora, consequatur ea asperiores numquam nostrum laborum architecto iure delectus autem minus voluptatibus! Aperiam, amet sint labore laudantium vitae obcaecati?
+        </div>
+    </div>
+</body>
+</html>
