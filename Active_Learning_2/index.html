@@ -10,40 +10,66 @@
     <style>
         .main{
             font-family: 'Trirong', serif;
-            border: 3px solid red;
+        
             margin: 3px;
-            padding: 3px;
+            padding: 20px;
+            background-color: whitesmoke;
+
+            
         }
         .menuname{
             text-align: center;
             float: left;
             width: 800px;
-        border-bottom: 3px double black;
-        padding: 0px;
-        margin: 1px;
-        float: left;
-        font-size: 40px;
+            border-bottom: 3px double black;
+            padding: 0px;
+            margin: 1px;
+            float: left;
+            font-size: 40px;
         }
         .img{
             float: left;
-            width: 600px;
-        border: 3px solid red;
-        padding: 10px;
-        margin: 5px;
-        float: left;
+            width: 500px;
+       
+            padding: 10px;
+            margin: 5px;
+            float: left;
+            -moz-box-shadow: 10px 10px 5px #888888; /* Old Firefox */
+            box-shadow: 10px 10px 5px #888888;
         }
+        .po{
+           float: inline-start;
+           padding: 10px;
+           margin: 5px;
+        }
+        .how{
+            float: left;
+           padding: 10px;
+           margin: 5px;
+        }
+        .detel{
+            background-color: white;
+            -moz-box-shadow: 10px 10px 5px #888888; /* Old Firefox */
+            box-shadow: 10px 10px 5px #888888;
+        }
+        .comment{
+           
+        }
+        
     </style>
 </head>
 <body>
     <div class="main">
+        <div class="detel">
         <div class="img">
-        <img src="image/img_01.jpg" width="600px" alt="">
+        <img src="image/img_01.jpg" width="500px" alt="">
         </div>
         <div class="menuname">
         <h1>กะเพราหมูกรอบ</h1>
     </div>
-        <br><br>
-        <table  border="1" style="width: 50%;">
+        <br><br><br><br><br><br><br><br><br><br><br><br>
+        <div class="po">
+        <table  border="1" style="width: 100%;">
             <tr>
                 <td>ส่วนผสม</td>
                 <td>วิธีทำ</td>
@@ -75,8 +101,9 @@
                 </td>
             </tr>
         </table>
+    </div>
         <br>
-
+        <div class="how">
         <table border="2">
                 <tr>
                     <td colspan="2">ข้อมูลโภชนาการ</td>
@@ -110,13 +137,22 @@
                     <td>14.3 g</td>
                 </tr>
             </table>
+        </div>
             <br>
+            <div class="comment">
             <h2>แสดงความคิดเห็น</h2>
         <label for="topic">หัวข้อ</label>
         <input type="text"placeholder="หัวข้อ"><br>
         <label for="comment">ความคิดเห็น</label>
         <textarea name="comment" cols="30" rows="10" placeholder="เนื้อหาที่จะแสดงความคิดเห็น"></textarea>
+        <br>
+        <button style="width: 600px ; height: 50px; color: green;" type="submit">ยืนยัน</button>
     </div>
+    <br><br><br><br>
+    </div>
+    
+    </div>
+
     </body>
     </html>
 
