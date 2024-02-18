@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Kanit&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+body{
+    font-family: 'Chakra Petch', sans-serif;
+    /* font-family: 'Kanit', sans-serif; */
+}
+.navbar-brand{
+    color: #fca311;
+}
+.bg-body-tertiary{
+    background-color: white !important;
+}
+.myBtn{
+    background-color: #fca311;
+    color: white;
+}
+.protfolio{
+    background-color: #fca311;
+}
+.iconStyle{
+    font-size: 80px;
+    color: whitesmoke;
+
+}
+.orange{
+    color: #fca311;
+}
+.asbox{
+    margin: 0px 5% 0px 5%;
+}
+.date{
+    font-size: 13px;
+    margin-top: 10px;
+}
+.topic{
+    font-size: 25px;
+}
+.footer{
+    background-color: lightblue;
+}
+.iconStylefooter{
+    font-size: 120px;
+    color: whitesmoke;
+    float: left;
+
+}
+.menufooter{
+    float: left;
+    color: whitesmoke;
+    font-size: 24px;
+}
+.iconStyleSC{
+    font-size: 40px;
+    color: whitesmoke;
+    float: left;
+    padding-left: 10px;
+    margin: 0px 10px 0px 10px;
+}

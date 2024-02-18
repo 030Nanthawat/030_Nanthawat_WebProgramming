@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Form Elements</h1>
+    <form action="https://www.example.com/" method="post">
+        <label for="username">Username : </label>
+        <input type="text" name="username" value="" placeholder="Please input username" 
+        size="30" maxlength="20">
+        <br>
+        <label for="password">Password : </label>
+        <input type="password" name="password" value="" placeholder="Please input password" 
+        size="30" maxlength="20">
+        <br>
+        <label for="email">Email : </label>
+        <input type="email" name="email"  placeholder="Please input email">
+        <br>
+        <label for="address">Address : </label>
+        <textarea name="address" cols="30" rows="3">บ้านเลขที่ 31 หมู่ 6 ต.มะขามเตี้ย อ.เมือง จ.สุราษฏร์ธานี 84000</textarea>
+        <br>
+        <label for="gender">Gender : </label>
+        <input type="radio" name="gender" value="1">Male
+        <input type="radio" name="gender" value="2">Female
+        <input type="radio" name="gender" value="9">LGBTQ+
+        <br>
+        <label for="gender">Sources : </label>
+        <input type="checkbox" name="friends" value="friends"> Friends
+        <input type="checkbox" name="internet" value="internet"> Internet
+        <input type="checkbox" name="radio" value="radio"> Radio
+        <br>
+        <input type="checkbox" name="accept" checked> Accept
+        <input type="checkbox" name="refuse"> Refuse
+        <br>
+        <label for="department">Department</label>
+        <select name="dept">
+            <option value="1">IT</option>
+            <option value="2">Chemistry</option>
+            <option value="3">Engineer</option>
+            <option value="4">Envioronment</option>
+        </select>
+        <br>
+        <label for="profilepic">Upload File</label>
+        <input type="file" name="profilepic">
+        <br>
+        <input type="reset" value="ยกเลิก">
+        <input type="submit" value="ลงทะเบียน">
+    </form>
+</body>
+</html>
